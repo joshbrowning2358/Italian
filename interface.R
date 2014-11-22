@@ -1,5 +1,4 @@
 interface <- function(){
-  setwd("~/Github/Vocab")
   #Load vocabFile: either record of progress or new file to add words
   while(!"vocabFile" %in% ls(".GlobalEnv")){
     name = start()

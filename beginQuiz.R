@@ -1,5 +1,5 @@
 beginQuiz <- function(){
-  ranking = rbinom(nrow(vocabFile), size=5, p=.5)
+  ranking = rbinom(nrow(vocabFile), size=3, p=.5)
   ranking = (ranking+vocabFile$Success)/(5+vocabFile$Total)
   vocabFile = vocabFile[order(ranking),]
   continue = TRUE
