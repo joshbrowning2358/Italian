@@ -4,6 +4,8 @@ setwd("~/GitHub/Italian")
 source("interface.R")
 source("start.R")
 source("addWord.R")
+source("checkDupes.R")
+source("computeStats.R")
 source("beginQuiz.R")
 
 if(exists("vocabFile")){

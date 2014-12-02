@@ -6,7 +6,7 @@ interface <- function(){
   finished=FALSE
   while(!finished){
     prompt = -1
-    while(!prompt %in% 1:5){
+    while(!prompt %in% 1:7){
       cat("Your vocabulary list currently has",nrow(vocabFile),"words.\n")
       cat("What would you like to do?\n")
       cat("(1) Enter new words\n")
@@ -14,6 +14,8 @@ interface <- function(){
       cat("(3) Save and Exit\n")
       cat("(4) Create Backup\n")
       cat("(5) Don't Save and Exit\n")
+      cat("(6) Check for duplicates\n")
+      cat("(7) Show Statistics\n")
       prompt = readline()
     }
     if(prompt==1)
@@ -31,5 +33,9 @@ interface <- function(){
     }
     if(prompt==5)
       finished=TRUE
+    if(prompt==6)
+      checkDupes()
+    if(prompt==7)
+      computeStats()
   }
 }

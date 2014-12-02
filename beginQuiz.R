@@ -37,22 +37,26 @@ beginQuiz <- function(){
             cat("English word is", vocabFile[i,"English"],"\n")
           else
             cat("Italian word is",vocabFile[i,"Italian"],"\n")
-          
-          rightPrompt = 0
-          while(!rightPrompt %in% c("y", "n")){
-            rightPrompt = readline("Did you get the word right (y/n)?")
-          }
-          if(rightPrompt=="y")
-            vocabFile[i,"Success"] = vocabFile[i,"Success"]+1
-          vocabFile[i,"Total"] = vocabFile[i,"Total"]+1
+        }
+        rightPrompt = 0
+        while(!rightPrompt %in% c("y", "n")){
+          rightPrompt = readline("Did you get the word right (y/n)?")
+        }
+        if(rightPrompt=="y")
+          vocabFile[i,"Success"] = vocabFile[i,"Success"]+1
+        vocabFile[i,"Total"] = vocabFile[i,"Total"]+1
         
-          #Don't overrun vocabFile
-          if(i+1>nrow(vocabFile)){
-            break
-          }
+        #Don't overrun vocabFile
+        if(i+1>nrow(vocabFile)){
+          break
         }
       }
     }
   }
   vocabFile <<- vocabFile
 }
+
+168
+172
+175
+123
