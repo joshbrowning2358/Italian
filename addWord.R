@@ -2,6 +2,8 @@ addWord <- function(){
   continue = TRUE
   while(continue){
     prompt = -1
+    if(nrow(vocabFile)>1)
+      rownames(vocabFile) = 1:nrow(vocabFile)
     while(!prompt %in% 1:2){
       cat("Your vocabulary list currently has",nrow(vocabFile),"words.\n")
       cat("What would you like to do?\n")
