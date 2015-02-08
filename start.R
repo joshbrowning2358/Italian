@@ -1,7 +1,9 @@
 start <- function(){
   name = readline("Please input your name: ")
-  if(paste0(name,".RData") %in% list.files())
-    load(paste0(name,".RData"))
+#   if(paste0(name,".RData") %in% list.files())
+#     load(paste0(name,".RData"))
+  if(paste0(name,".csv") %in% list.files())
+    vocabFile = read.csv(paste0(name,".csv"), stringsAsFactors = FALSE)
   else {
     needResponse = TRUE
     while(needResponse){
