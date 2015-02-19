@@ -6,7 +6,7 @@ interface <- function(){
   finished=FALSE
   while(!finished){
     prompt = -1
-    while(!prompt %in% 1:7){
+    while(!prompt %in% 1:8){
       cat("Your vocabulary list currently has",nrow(vocabFile),"words.\n")
       cat("What would you like to do?\n")
       cat("(1) Enter new words\n")
