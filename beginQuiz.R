@@ -1,5 +1,5 @@
 beginQuiz <- function(type){
-  ranking = rbinom(nrow(vocabFile), size=3, p=.5)
+  ranking = rbinom(nrow(vocabFile), size=5, p=.5)
   ranking = (ranking+vocabFile$Success)/(5+vocabFile$Total)
   vocabFile = vocabFile[order(ranking),]
   continue = TRUE
@@ -8,13 +8,26 @@ beginQuiz <- function(type){
     while(!prompt %in% 1:1000){
       cat("What would you like to do?\n")
       cat("(1) Quit\n")
-      cat("(2-1000) Continue quiz for 2-1000 words\n")
+      cat("(2) Adjust random factor\n")
+      cat("(3-1000) Continue quiz for 3-1000 words\n")
       prompt = readline()
     }
     if(prompt==1){
       continue = FALSE
     }
-    if(prompt %in% 2:1000){
+    if(prompt==2){
+      adjustment = NA
+      while(is.na(adjustment)){
+        adjustment = readline(paste("Please enter the number of random",
+             "rolls (0-Inf):"))
+        adjustment = as.numeric(adjustment)
+        adjustment = round(adjustment)
+      }
+      ranking = rbinom(nrow(vocabFile), size=adjustment, p=.5)
+      ranking = (ranking+vocabFile$Success)/(adjustment+vocabFile$Total)
+      vocabFile = vocabFile[order(ranking),]
+    }
+    if(prompt %in% 3:1000){
       prompt = as.numeric(prompt)
       testCnt = 1
       rowNumber = 1
