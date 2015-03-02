@@ -30,6 +30,6 @@ parseOneTenseEnglish = function(charVec){
     they = charVec
     
     return(data.frame(person = c("I", "you", "he, she, it", "we",
-                                 ".", "they"),
-                      elementList = c(I, you, he, we, you2, they)))
+                                 "you (plural)", "they"),
+                      conjugation = c(I, you, he, we, you2, they)))
 }

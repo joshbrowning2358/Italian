@@ -32,8 +32,8 @@ getConjugationsEnglish = function(infinitive){
 
     imperative = gsub(".*Imperative ", "", verbList[7])
     imperative = gsub("let's.*", "", imperative)
-    imperative = data.frame(person = c("I", "you", "he, she, it", "we", ".", "they"),
-                            elementList = c(".", imperative, imperative,
+    imperative = data.frame(person = c("I", "you", "he, she, it", "we", "you (plural)", "they"),
+                            conjugation = c(NA_character_, imperative, imperative,
                                             paste("Let's", imperative),
                                             imperative, imperative))
     
@@ -95,5 +95,5 @@ getConjugationsEnglish = function(infinitive){
                  data.frame(tense = "present perfect continuous", PresentPerfectContinuous),
                  data.frame(tense = "past perfect continuous", PastPerfectContinuous),
                  data.frame(tense = "future perfect continuous", FuturePerfectContinuous),
-                 data.frame(tense = "infinitive", infinitive)))
+                 data.frame(tense = "infinitive", person = NA, conjugation = infinitive)))
 }

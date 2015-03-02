@@ -18,6 +18,9 @@ getConjugations = function(infinitive){
         html_nodes("tr") %>%
         xml_text()
     
+    if(length(verbList) == 0)
+        return(NULL)
+    
     cursor = 2
     indicativo <- congiuntivo <- condizionale <- imperative <- infinito <-
         participio <- gerundio <- c()
