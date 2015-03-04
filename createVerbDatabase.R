@@ -9,6 +9,7 @@ source("getConjugationsEnglish.R")
 source("parseOneTenseEnglish.R")
 
 verbs = read.csv("verbs_both.csv", stringsAsFactors = FALSE)
+verbMap = read.csv("tenseMap.csv")
 
 englishDatabase = NULL
 italianDatabase = NULL
@@ -37,16 +38,19 @@ for(i in 1:nrow(verbs)){
         italianDatabase = rbind(italianDatabase, italConj)
     }
 
-    save(italianDatabase, englishDatabase, verbs, file = "verbData.RData")
+    save(italianDatabase, englishDatabase, verbs, verbMap,
+         file = "verbData.RData")
     cat("Added word", verbs[i, 1], ",", verbs[i, 2], "\n")
 }
 
+## Manually add uncertainty tenses
 for(verb in unique(englishDatabase$verb)){
     englishDatabase = rbind(englishDatabase, data.frame(
         tense = "present conditional",
         person = c("I", "you", "he, she, it", "we", "you (plural)", "they"),
         conjugation = paste(c("could", "could", "could",
-                              "could", "could", "could"), verb)))
+                              "could", "could", "could"), verb),
+        verb = verb))
     participle = englishDatabase[englishDatabase$verb == verb &
                                  englishDatabase$tense == "present perfect" &
                                  englishDatabase$person == "I", "conjugation"]
@@ -55,8 +59,32 @@ for(verb in unique(englishDatabase$verb)){
         tense = "past conditional",
         person = c("I", "you", "he, she, it", "we", "you (plural)", "they"),
         conjugation = paste(c("could", "could", "could",
-                              "could", "could", "could"), participlie)))
+                              "could", "could", "could"), participle),
+        verb = verb))
 }
 
+## Manually add  tense
+for(verb in unique(englishDatabase$verb)){
+    englishDatabase = rbind(englishDatabase, data.frame(
+        tense = "present conditional",
+        person = c("I", "you", "he, she, it", "we", "you (plural)", "they"),
+        conjugation = paste(c("could", "could", "could",
+                              "could", "could", "could"), verb),
+        verb = verb))
+    participle = englishDatabase[englishDatabase$verb == verb &
+                                 englishDatabase$tense == "present perfect" &
+                                 englishDatabase$person == "I", "conjugation"]
+    participle = gsub("have ", "", participle)
+    englishDatabase = rbind(englishDatabase, data.frame(
+        tense = "past conditional",
+        person = c("I", "you", "he, she, it", "we", "you (plural)", "they"),
+        conjugation = paste(c("could", "could", "could",
+                              "could", "could", "could"), participle),
+        verb = verb))
+}
 
+save(italianDatabase, englishDatabase, verbs, verbMap,
+     file = "verbData.RData")
 load("verbData.RData")
+verbMap$englishTense[which(!verbMap$englishTense %in% englishDatabase$tense)]
+verbMap$italianTense[which(!verbMap$italianTense %in% italianDatabase$tense)]
