@@ -63,7 +63,7 @@ for(verb in unique(englishDatabase$verb)){
         verb = verb))
 }
 
-## Manually add  tense
+## Manually add  conditional tenses
 for(verb in unique(englishDatabase$verb)){
     englishDatabase = rbind(englishDatabase, data.frame(
         tense = "present conditional",
@@ -82,6 +82,14 @@ for(verb in unique(englishDatabase$verb)){
                               "could", "could", "could"), participle),
         verb = verb))
 }
+
+## Manually add congiuntivo tenses
+subset = englishDatabase[englishDatabase$tense %in%
+                             c("indicative", "preterite",
+                               "present perfect", "past perfect"), ]
+subset$tense = paste(subset$tense, "+ uncertainty") 
+subset$conjugation = paste(subset$conjugation, "(maybe)")
+englishDatabase = rbind(englishDatabase, subset)
 
 save(italianDatabase, englishDatabase, verbs, verbMap,
      file = "verbData.RData")
