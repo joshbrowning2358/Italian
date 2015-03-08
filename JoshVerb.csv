@@ -1,0 +1,439 @@
+category,word,active,attempts,successes
+person,io,1,0,0
+person,tu,1,0,0
+person,lui/lei/Lei,1,0,0
+person,noi,1,0,0
+person,voi,1,0,0
+person,loro,1,0,0
+tense,Presente,1,0,0
+tense,Future Anteriore,1,0,0
+tense,Futuro Semplice,1,0,0
+tense,imperative,1,0,0
+tense,Imperfetto,1,0,0
+tense,Imperfetto Congiuntivo,1,0,0
+tense,Passato Condizionale,1,0,0
+tense,Passato Congiuntivo,1,0,0
+tense,Passato Prossimo,1,0,0
+tense,Passato Remoto,1,0,0
+tense,Presente,1,0,0
+tense,Presente Condizionale,1,0,0
+tense,Presente Congiuntivo,1,0,0
+tense,Trapassato Congiuntivo,1,0,0
+tense,Trapassato Prossimo,1,0,0
+tense,Trapassato Remoto,1,0,0
+verb,abbassare,0,0,0
+verb,abbracciare,0,0,0
+verb,accendere,0,0,0
+verb,accennare,0,0,0
+verb,accettare,0,0,0
+verb,accusare,0,0,0
+verb,adattare,0,0,0
+verb,adorare,0,0,0
+verb,affascinare,0,0,0
+verb,afferrare,0,0,0
+verb,aggiungere,0,0,0
+verb,aggiustare,0,0,0
+verb,aiutare,1,0,0
+verb,allontanarsi,0,0,0
+verb,alzarsi,0,0,0
+verb,alzarsi (in piedi),0,0,0
+verb,amare,0,0,0
+verb,amare,0,0,0
+verb,ammalarsi,0,0,0
+verb,ammettere,0,0,0
+verb,ammirare,0,0,0
+verb,andare,0,0,0
+verb,annunciare,0,0,0
+verb,apparire,0,0,0
+verb,apparire,0,0,0
+verb,aprire,0,0,0
+verb,arrabbiarsi,0,0,0
+verb,arrivare,0,0,0
+verb,asciugarsi,0,0,0
+verb,ascoltare,0,0,0
+verb,aspettare,0,0,0
+verb,assumere,0,0,0
+verb,attaccare,0,0,0
+verb,attirare (l'attenzione di qualcuno),0,0,0
+verb,attrarre,0,0,0
+verb,attraversare,0,0,0
+verb,avanzare,0,0,0
+verb,avere,0,0,0
+verb,avere (bisogno di),0,0,0
+verb,badare,0,0,0
+verb,ballare,0,0,0
+verb,bere,0,0,0
+verb,bruciare,0,0,0
+verb,buttare (via),0,0,0
+verb,cadere,0,0,0
+verb,cambiare,0,0,0
+verb,camminare,0,0,0
+verb,cantare,0,0,0
+verb,capire,0,0,0
+verb,capire,0,0,0
+verb,celebrare,0,0,0
+verb,cenare,0,0,0
+verb,cercare,0,0,0
+verb,chiacchierare,0,0,0
+verb,chiamare,0,0,0
+verb,chiedere,0,0,0
+verb,chiedere,0,0,0
+verb,chiudere,0,0,0
+verb,colpire,0,0,0
+verb,compiere,0,0,0
+verb,comprare,0,0,0
+verb,concentrarsi,0,0,0
+verb,conoscere,0,0,0
+verb,conquistare,0,0,0
+verb,consegnare,0,0,0
+verb,contare,0,0,0
+verb,contare su,0,0,0
+verb,continuare,0,0,0
+verb,continuare,0,0,0
+verb,contribuire,0,0,0
+verb,convincere,0,0,0
+verb,coprire,0,0,0
+verb,correggere,0,0,0
+verb,correre,0,0,0
+verb,costare,0,0,0
+verb,costruire,0,0,0
+verb,creare,0,0,0
+verb,credere,0,0,0
+verb,crescere,0,0,0
+verb,crescere,0,0,0
+verb,cucinare,0,0,0
+verb,dare,0,0,0
+verb,dare,0,0,0
+verb,dare (consigli),0,0,0
+verb,decidere,0,0,0
+verb,dedicarsi,0,0,0
+verb,depositare,0,0,0
+verb,derubare,0,0,0
+verb,descrivere,0,0,0
+verb,desiderare,0,0,0
+verb,dibattere,0,0,0
+verb,dichiarare,0,0,0
+verb,dimenticare,0,0,0
+verb,dipendere,0,0,0
+verb,dipingere,0,0,0
+verb,dire,0,0,0
+verb,dire,0,0,0
+verb,dirigere,0,0,0
+verb,discutere,0,0,0
+verb,disegnare,0,0,0
+verb,distrarre,0,0,0
+verb,distruggere,0,0,0
+verb,diventare,0,0,0
+verb,divertirsi,0,0,0
+verb,domandare,0,0,0
+verb,dormire,0,0,0
+verb,dovere,0,0,0
+verb,dubitare,0,0,0
+verb,durare,0,0,0
+verb,entrare,0,0,0
+verb,esercitarsi,0,0,0
+verb,esistere,0,0,0
+verb,esprimere,0,0,0
+verb,essere,0,0,0
+verb,essere,0,0,0
+verb,fare,0,0,0
+verb,fare,0,0,0
+verb,fare (attenzione),0,0,0
+verb,fare (colazione),0,0,0
+verb,fare (conversazione),0,0,0
+verb,fare (il bagno),0,0,0
+verb,fare (il numero),0,0,0
+verb,fare (la doccia),0,0,0
+verb,fare (male),0,0,0
+verb,fare (male),0,0,0
+verb,finire,0,0,0
+verb,finire,0,0,0
+verb,finire,0,0,0
+verb,firmare,0,0,0
+verb,formare,0,0,0
+verb,fumare,0,0,0
+verb,funzionare,0,0,0
+verb,giocare,0,0,0
+verb,girare,0,0,0
+verb,giudicare,0,0,0
+verb,guadagnare,0,0,0
+verb,guardare,0,0,0
+verb,guardare,0,0,0
+verb,guidare,0,0,0
+verb,guidare,0,0,0
+verb,immaginare,0,0,0
+verb,imparare,0,0,0
+verb,includere,0,0,0
+verb,incontrare,0,0,0
+verb,indicare,0,0,0
+verb,indossare,0,0,0
+verb,indovinare,0,0,0
+verb,iniziare,0,0,0
+verb,iniziare,0,0,0
+verb,innamorarsi,0,0,0
+verb,insegnare,0,0,0
+verb,insistere,0,0,0
+verb,interessare,0,0,0
+verb,interrompere,0,0,0
+verb,introdurre,0,0,0
+verb,invitare,0,0,0
+verb,lamentarsi,0,0,0
+verb,lasciare,0,0,0
+verb,lasciare,0,0,0
+verb,lasciare (qualcosa o qualcuno),0,0,0
+verb,laurearsi,0,0,0
+verb,lavarsi,0,0,0
+verb,lavorare,0,0,0
+verb,leggere,0,0,0
+verb,liberarsi (di),0,0,0
+verb,litigare,0,0,0
+verb,mancare,0,0,0
+verb,mangiare,0,0,0
+verb,mantenere,0,0,0
+verb,mantenere,0,0,0
+verb,mentire,0,0,0
+verb,meritarsi,0,0,0
+verb,mettere,0,0,0
+verb,mettere,0,0,0
+verb,migliorare,0,0,0
+verb,mordere,0,0,0
+verb,morire,0,0,0
+verb,mostrare,0,0,0
+verb,muovere,0,0,0
+verb,nascondere,0,0,0
+verb,nevicare,0,0,0
+verb,nuotare,0,0,0
+verb,occupare,0,0,0
+verb,offrire,0,0,0
+verb,ordinare,0,0,0
+verb,organizzare,0,0,0
+verb,pagare,0,0,0
+verb,parlare,0,0,0
+verb,partecipare,0,0,0
+verb,partecipare,0,0,0
+verb,passare,0,0,0
+verb,pensare,0,0,0
+verb,perdere,0,0,0
+verb,permettere,0,0,0
+verb,permettere,0,0,0
+verb,piacere,0,0,0
+verb,piangere,0,0,0
+verb,pianificare,0,0,0
+verb,piegare,0,0,0
+verb,piovere,0,0,0
+verb,portare,0,0,0
+verb,portare,0,0,0
+verb,pranzare,0,0,0
+verb,preferire,0,0,0
+verb,prendere,0,0,0
+verb,prendersi (cura di),0,0,0
+verb,prenotare,0,0,0
+verb,preoccuparsi,0,0,0
+verb,preparare,0,0,0
+verb,prepararsi,0,0,0
+verb,prestare,0,0,0
+verb,produrre,0,0,0
+verb,promettere,0,0,0
+verb,pronunciare,0,0,0
+verb,proporre,0,0,0
+verb,proteggere,0,0,0
+verb,provare,0,0,0
+verb,provare ,0,0,0
+verb,pubblicizzare,0,0,0
+verb,pulire,0,0,0
+verb,raccogliere,0,0,0
+verb,radersi,0,0,0
+verb,raffreddare,0,0,0
+verb,raggiungere,0,0,0
+verb,registrare,0,0,0
+verb,rendersi (conto),0,0,0
+verb,restare,0,0,0
+verb,ricaricare,0,0,0
+verb,ricevere,0,0,0
+verb,ricevere,0,0,0
+verb,ricevere,0,0,0
+verb,richiedere,0,0,0
+verb,riconoscere,0,0,0
+verb,ricordare,0,0,0
+verb,ricordarsi,0,0,0
+verb,ridere,0,0,0
+verb,rimanere,0,0,0
+verb,ringraziare,0,0,0
+verb,rinunciare,0,0,0
+verb,riparare,0,0,0
+verb,ripetere,0,0,0
+verb,riportare,0,0,0
+verb,riposarsi,0,0,0
+verb,riscuotere,0,0,0
+verb,risolvere,0,0,0
+verb,rispondere,0,0,0
+verb,rispondere,0,0,0
+verb,ritornare,0,0,0
+verb,ritornare,0,0,0
+verb,rompere,0,0,0
+verb,rompere,0,0,0
+verb,salire,0,0,0
+verb,saltare,0,0,0
+verb,saltare,0,0,0
+verb,salutare,0,0,0
+verb,salutare,0,0,0
+verb,salvare,0,0,0
+verb,sapere,0,0,0
+verb,scaldare,0,0,0
+verb,scegliere,0,0,0
+verb,scendere,0,0,0
+verb,sciare,0,0,0
+verb,scoprire,0,0,0
+verb,scoprire,0,0,0
+verb,scrivere,0,0,0
+verb,sdraiarsi,0,0,0
+verb,sedersi,0,0,0
+verb,segnare,0,0,0
+verb,seguire,0,0,0
+verb,sembrare,0,0,0
+verb,sembrare ,0,0,0
+verb,sentire,0,0,0
+verb,sentire (un odore),0,0,0
+verb,sentirsi,0,0,0
+verb,sentirsi,0,0,0
+verb,separare,0,0,0
+verb,servire,0,0,0
+verb,smettere,0,0,0
+verb,soffrire,0,0,0
+verb,sognare,0,0,0
+verb,sommare,0,0,0
+verb,sorprendere,0,0,0
+verb,sorridere,0,0,0
+verb,sparire,0,0,0
+verb,spazzolare,0,0,0
+verb,spedire,0,0,0
+verb,spegnere,0,0,0
+verb,spendere,0,0,0
+verb,sperimentare,0,0,0
+verb,spiegare,0,0,0
+verb,sporcarsi,0,0,0
+verb,sposarsi,0,0,0
+verb,stabilire,0,0,0
+verb,stancarsi,0,0,0
+verb,studiare,0,0,0
+verb,succedere,0,0,0
+verb,succedere,0,0,0
+verb,suggerire,0,0,0
+verb,suonare,0,0,0
+verb,suonare,0,0,0
+verb,superare,0,0,0
+verb,supporre,1,0,0
+verb,svegliarsi,1,0,0
+verb,tagliare,1,0,0
+verb,tenere,1,0,0
+verb,toccare,1,0,0
+verb,tradurre,1,0,0
+verb,trasportare,1,0,0
+verb,trovare,1,0,0
+verb,trovarsi,0,0,0
+verb,uccidere,0,0,0
+verb,urlare,1,0,0
+verb,usare,1,0,0
+verb,usare,1,0,0
+verb,valere (la pena),1,0,0
+verb,vedere,1,0,0
+verb,vendere,1,0,0
+verb,venire,1,0,0
+verb,vestirsi,1,0,0
+verb,viaggiare,1,0,0
+verb,vincere,1,0,0
+verb,visitare,1,0,0
+verb,vivere,1,0,0
+verb,volare,1,0,0
+verb,volere,1,0,0
+verb,attivare,1,0,0
+verb,accordarsi,1,0,0
+verb,scusarsi,1,0,0
+verb,allegare,1,0,0
+verb,potere,1,0,0
+verb,nascere,1,0,0
+verb,vergognarsi,1,0,0
+verb,fare (complimenti),1,0,0
+verb,stare (così così),1,0,0
+verb,sbagliare,1,0,0
+verb,sopportare,1,0,0
+verb,annoiarsi,1,0,0
+verb,cominciare,1,0,0
+verb,comportare,1,0,0
+verb,molestare,1,0,0
+verb,telefonare,1,0,0
+verb,chiamarsi,1,0,0
+verb,cagionare,1,0,0
+verb,festeggiare,1,0,0
+verb,modificare,1,0,0
+verb,aggirarsi,1,0,0
+verb,confondersi,1,0,0
+verb,contenere,1,0,0
+verb,osare,1,0,0
+verb,turbare,1,0,0
+verb,cingere,1,0,0
+verb,intrattenere,1,0,0
+verb,flirtare,1,0,0
+verb,dimenticarsi,1,0,0
+verb,guarire,1,0,0
+verb,bisognare,1,0,0
+verb,sperare,1,0,0
+verb,affrettarsi,1,0,0
+verb,fare male,1,0,0
+verb,scherzare,1,0,0
+verb,redere,1,0,0
+verb,imparare,1,0,0
+verb,partire,1,0,0
+verb,lasciare (andare),1,0,0
+verb,abitare,1,0,0
+verb,caricare,1,0,0
+verb,fare (una brutta figura),1,0,0
+verb,fare (una idea),1,0,0
+verb,manovrare,1,0,0
+verb,importare,1,0,0
+verb,intendere,1,0,0
+verb,voler (dire),1,0,0
+verb,significare,1,0,0
+verb,sgomberare,1,0,0
+verb,bofonchiare,1,0,0
+verb,avere (bisogno di),1,0,0
+verb,ottenere,1,0,0
+verb,avvenire,1,0,0
+verb,tralasciare,1,0,0
+verb,sbirciare,1,0,0
+verb,accarezzare,1,0,0
+verb,raccattare,1,0,0
+verb,supplicare,1,0,0
+verb,practicare,1,0,0
+verb,mettersi,1,0,0
+verb,mettere (a letto),1,0,0
+verb,riprendersi,1,0,0
+verb,recaricare,1,0,0
+verb,affitare,1,0,0
+verb,pentirsi,1,0,0
+verb,riprendere,1,0,0
+verb,ritenere,1,0,0
+verb,tornarci,1,0,0
+verb,rubare,1,0,0
+verb,correre (dietro a),1,0,0
+verb,spaventare,1,0,0
+verb,scrutare,1,0,0
+verb,mandare,1,0,0
+verb,condividere,1,0,0
+verb,gridare,1,0,0
+verb,patinare,1,0,0
+verb,sbattere,1,0,0
+verb,stare,1,0,0
+verb,fermare,1,0,0
+verb,riuscire,1,0,0
+verb,sostenere,1,0,0
+verb,prendere (la metro),1,0,0
+verb,gustare,1,0,0
+verb,raccontare,1,0,0
+verb,scagliare,1,0,0
+verb,rimorchiare,1,0,0
+verb,fidarsi,1,0,0
+verb,provarsi,1,0,0
+verb,aggiornare,1,0,0
+verb,aspettare,1,0,0
+verb,sprecare,1,0,0

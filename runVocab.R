@@ -1,5 +1,6 @@
 currDir = getwd()
 setwd("~/GitHub/Italian")
+library(data.table)
 source("interface.R")
 source("start.R")
 source("addWord.R")

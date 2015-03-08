@@ -9,7 +9,7 @@ source("getConjugationsEnglish.R")
 source("parseOneTenseEnglish.R")
 
 verbs = read.csv("verbs_both.csv", stringsAsFactors = FALSE)
-verbMap = read.csv("tenseMap.csv")
+verbMap = read.csv("tenseMap.csv", stringsAsFactors = FALSE)
 
 englishDatabase = NULL
 italianDatabase = NULL
@@ -96,3 +96,19 @@ save(italianDatabase, englishDatabase, verbs, verbMap,
 load("verbData.RData")
 verbMap$englishTense[which(!verbMap$englishTense %in% englishDatabase$tense)]
 verbMap$italianTense[which(!verbMap$italianTense %in% italianDatabase$tense)]
+
+## Now, let's join the datasets together for a final translation dataset
+finalDatabase = englishDatabase
+colnames(finalDatabase) = paste0(colnames(finalDatabase), "English")
+finalDatabase = merge(finalDatabase, verbMap,
+                      by.x = "tenseEnglish", by.y = "englishTense")
+finalDatabase$personMatch = gsub("( |,|\\(|\\))", "", finalDatabase$personEnglish)
+finalDatabase$italianPerson = sapply(as.character(finalDatabase$personMatch),
+                                     switch,
+                                     I = "io", you = "tu",
+                                     hesheit = "lui, lei, Lei",
+                                     we = "noi", youplural = "voi",
+                                     they = "loro, Loro")
+finalDatabase$personMatch = NULL
+finalDatabase = merge(finalDatabase, verbs,
+                      by.x = "verbEnglish", by.y = "English")
