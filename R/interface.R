@@ -28,8 +28,8 @@ interface <- function(){
       beginQuiz(type = "conjugation")
     if(prompt==4){
         while(!"verbFile" %in% ls(".GlobalEnv"))
-            name = startVerb()
-        verbQuiz()
+            name = startVerb() # defines verbFile
+        wrapVerbQuiz(name = name)
     }
     if(prompt==5){
       finished=TRUE

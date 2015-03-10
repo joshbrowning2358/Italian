@@ -8,8 +8,5 @@ startVerb <- function(){
     }
     if(exists("verbFile"))
         verbFile <<- verbFile
-    load("verbData.RData")
-    italianDatabase = data.table(italianDatabase)
-    englishDatabase = data.table(englishDatabase)
     return(name)
 }

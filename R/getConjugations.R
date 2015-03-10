@@ -14,7 +14,7 @@ getConjugations = function(infinitive){
     url = sprintf("http://italian.about.com/library/verb/blverb_%s.htm",
                   infinitive)
     
-    verbList = html(url) %>%
+    verbList = html(url, encoding = "UTF-8") %>%
         html_nodes("tr") %>%
         xml_text()
     

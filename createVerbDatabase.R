@@ -1,14 +1,17 @@
 library(rvest)
 library(stringr)
+library(data.table)
 
 setwd("~/GitHub/Italian/")
 
-source("getConjugations.R")
+source("R/getConjugations.R")
 source("parseOneTense.R")
-source("getConjugationsEnglish.R")
+source("R/getConjugationsEnglish.R")
 source("parseOneTenseEnglish.R")
 
 verbs = read.csv("verbs_both.csv", stringsAsFactors = FALSE)
+verbs = unique.data.frame(verbs)
+write.csv(verbs, file = "verbs_both.csv", row.names = FALSE)
 verbMap = read.csv("tenseMap.csv", stringsAsFactors = FALSE)
 
 englishDatabase = NULL
@@ -21,7 +24,7 @@ for(i in 1:nrow(verbs)){
         ending = ""
     english = gsub(" .*", "", english)
     engConj = getConjugationsEnglish(english)
-    engConj$verb = english
+    engConj$verb = verbs[i, 1]
     engConj$conjugation = paste0(engConj$conjugation, ending)
     englishDatabase = rbind(englishDatabase, engConj)
     
@@ -33,7 +36,7 @@ for(i in 1:nrow(verbs)){
     italian = gsub(" .*", "", italian)
     italConj = try(getConjugations(italian))
     if(!is.null(italConj) & !is(italConj, "try-error")){
-        italConj$verb = italian
+        italConj$verb = verbs[i, 2]
         italConj$conjugation = paste0(italConj$conjugation, ending)
         italianDatabase = rbind(italianDatabase, italConj)
     }
@@ -63,7 +66,7 @@ for(verb in unique(englishDatabase$verb)){
         verb = verb))
 }
 
-## Manually add  conditional tenses
+## Manually add conditional tenses
 for(verb in unique(englishDatabase$verb)){
     englishDatabase = rbind(englishDatabase, data.frame(
         tense = "present conditional",
@@ -112,3 +115,15 @@ finalDatabase$italianPerson = sapply(as.character(finalDatabase$personMatch),
 finalDatabase$personMatch = NULL
 finalDatabase = merge(finalDatabase, verbs,
                       by.x = "verbEnglish", by.y = "English")
+finalDatabase = merge(finalDatabase, italianDatabase,
+                      by.x = c("Italian", "italianTense", "italianPerson"),
+                      by.y = c("verb", "tense", "person"))
+finalDatabase = finalDatabase[, c("personEnglish", "tenseEnglish",
+                                  "verbEnglish", "conjugationEnglish",
+                                  "italianPerson", "italianTense",
+                                  "Italian", "conjugation")]
+colnames(finalDatabase) = c("englishPerson", "englishTense", "englishVerb",
+                            "englishConjugation", "italianPerson",
+                            "italianTense", "italianVerb", "italianConjugation")
+finalDatabase = data.table(finalDatabase)
+save(finalDatabase, file = "finalVerbDatabase.RData")
