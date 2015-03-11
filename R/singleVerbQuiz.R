@@ -28,7 +28,6 @@ singleVerbQuiz = function(verbFile){
     subset = finalDatabase[italianTense == tenseWord &
                            italianPerson == personWord &
                            italianVerb == verbWord, ]
-    cat(tenseWord, personWord, verbWord, "\n")
 
     ## Write out question
     if(giveItalian){

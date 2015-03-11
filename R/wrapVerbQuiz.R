@@ -11,11 +11,12 @@
 ##' 
 
 wrapVerbQuiz = function(name){
+    
     ## Access dataset
-    verbFile = fread(paste0(name,"Verb.csv"), stringsAsFactors = FALSE)
     verbFile[, attempts := as.integer(attempts)]
     verbFile[, successes := as.integer(successes)]
     verbFile[, active := as.integer(active)]
+    load("~/GitHub/Italian/finalVerbDatabase.RData")
     
     ## Subset verbFile
     filter = verbFile[, active == 1 & (word %in% finalDatabase$italianVerb |
