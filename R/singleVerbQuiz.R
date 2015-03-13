@@ -28,6 +28,7 @@ singleVerbQuiz = function(verbFile){
     subset = finalDatabase[italianTense == tenseWord &
                            italianPerson == personWord &
                            italianVerb == verbWord, ]
+    subset = unique(subset)
 
     ## Write out question
     if(giveItalian){
@@ -43,6 +44,7 @@ singleVerbQuiz = function(verbFile){
         subset = finalDatabase[englishPerson == englishWord$englishPerson &
                                englishTense == englishWord$englishTense &
                                englishVerb == englishWord$englishVerb, ]
+        subset = unique(subset)
         for(i in 1:nrow(subset))
             cat("\t", as.character(subset[i, italianPerson]),
                 subset[i, italianConjugation], "\n")

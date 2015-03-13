@@ -72,7 +72,8 @@ for(verb in unique(englishDatabase$verb)){
         tense = "present conditional",
         person = c("I", "you", "he, she, it", "we", "you (plural)", "they"),
         conjugation = paste(c("could", "could", "could",
-                              "could", "could", "could"), verb),
+                              "could", "could", "could"),
+                            gsub("to ", "", verb)),
         verb = verb))
     participle = englishDatabase[englishDatabase$verb == verb &
                                  englishDatabase$tense == "present perfect" &

@@ -1,26 +1,26 @@
 "category","word","active","attempts","successes"
-"person","io",1,6,2
-"person","tu",1,2,1
+"person","io",1,18,6
+"person","tu",1,10,4
 "person","lui/lei/Lei",1,0,0
-"person","noi",1,4,1
-"person","voi",1,1,0
+"person","noi",1,10,5
+"person","voi",1,10,4
 "person","loro",1,0,0
-"tense","Presente",1,3,1
-"tense","Future Anteriore",1,0,0
-"tense","Futuro Semplice",1,0,0
-"tense","imperative",1,1,0
-"tense","Imperfetto",1,2,0
-"tense","Imperfetto Congiuntivo",1,1,1
-"tense","Passato Condizionale",1,2,2
-"tense","Passato Congiuntivo",1,1,0
+"tense","Presente",1,12,7
+"tense","Future Anteriore",1,1,0
+"tense","Futuro Semplice",1,2,1
+"tense","imperative",1,4,2
+"tense","Imperfetto",1,3,1
+"tense","Imperfetto Congiuntivo",1,5,4
+"tense","Passato Condizionale",1,3,2
+"tense","Passato Congiuntivo",1,4,0
 "tense","Passato Prossimo",1,1,1
-"tense","Passato Remoto",1,2,1
-"tense","Presente",1,3,1
-"tense","Presente Condizionale",1,1,0
-"tense","Presente Congiuntivo",1,2,0
-"tense","Trapassato Congiuntivo",1,0,0
-"tense","Trapassato Prossimo",1,3,0
-"tense","Trapassato Remoto",1,1,0
+"tense","Passato Remoto",1,8,4
+"tense","Presente",1,12,7
+"tense","Presente Condizionale",1,5,1
+"tense","Presente Congiuntivo",1,4,0
+"tense","Trapassato Congiuntivo",1,4,2
+"tense","Trapassato Prossimo",1,6,2
+"tense","Trapassato Remoto",1,6,3
 "verb","abbassare",0,0,0
 "verb","abbracciare",0,0,0
 "verb","accendere",0,0,0
@@ -324,46 +324,46 @@
 "verb","superare",0,0,0
 "verb","supporre",1,0,0
 "verb","svegliarsi",1,0,0
-"verb","tagliare",1,0,0
-"verb","tenere",1,0,0
-"verb","toccare",1,2,2
-"verb","tradurre",1,0,0
+"verb","tagliare",1,1,1
+"verb","tenere",1,1,0
+"verb","toccare",1,3,3
+"verb","tradurre",1,2,1
 "verb","trasportare",1,0,0
-"verb","trovare",1,0,0
+"verb","trovare",1,1,1
 "verb","trovarsi",0,0,0
 "verb","uccidere",0,0,0
 "verb","urlare",1,2,0
 "verb","usare",1,0,0
 "verb","usare",1,0,0
 "verb","valere (la pena)",1,0,0
-"verb","vedere",1,1,1
-"verb","vendere",1,1,0
+"verb","vedere",1,2,1
+"verb","vendere",1,3,1
 "verb","venire",1,0,0
 "verb","vestirsi",1,0,0
 "verb","viaggiare",1,0,0
-"verb","vincere",1,1,0
-"verb","visitare",1,0,0
-"verb","vivere",1,1,0
+"verb","vincere",1,2,1
+"verb","visitare",1,1,1
+"verb","vivere",1,2,1
 "verb","volare",1,0,0
-"verb","volere",1,0,0
+"verb","volere",1,2,1
 "verb","attivare",1,0,0
 "verb","accordarsi",1,0,0
-"verb","scusarsi",1,0,0
+"verb","scusarsi",1,2,0
 "verb","allegare",1,0,0
-"verb","potere",1,0,0
+"verb","potere",1,1,0
 "verb","nascere",1,0,0
-"verb","vergognarsi",1,0,0
+"verb","vergognarsi",1,1,0
 "verb","fare (complimenti)",1,0,0
 "verb","stare (così così)",1,0,0
-"verb","sbagliare",1,0,0
+"verb","sbagliare",1,2,2
 "verb","sopportare",1,0,0
 "verb","annoiarsi",1,0,0
 "verb","cominciare",1,1,0
 "verb","comportare",1,0,0
 "verb","molestare",1,0,0
-"verb","telefonare",1,0,0
+"verb","telefonare",1,2,2
 "verb","chiamarsi",1,0,0
-"verb","cagionare",1,0,0
+"verb","cagionare",1,2,2
 "verb","festeggiare",1,1,1
 "verb","modificare",1,0,0
 "verb","aggirarsi",1,0,0
@@ -374,31 +374,31 @@
 "verb","cingere",1,0,0
 "verb","intrattenere",1,0,0
 "verb","flirtare",1,0,0
-"verb","dimenticarsi",1,0,0
+"verb","dimenticarsi",1,1,0
 "verb","guarire",1,0,0
 "verb","bisognare",1,0,0
 "verb","sperare",1,0,0
-"verb","affrettarsi",1,1,0
+"verb","affrettarsi",1,2,0
 "verb","fare male",1,0,0
-"verb","scherzare",1,1,0
+"verb","scherzare",1,2,1
 "verb","redere",1,0,0
 "verb","imparare",1,0,0
-"verb","partire",1,1,0
+"verb","partire",1,3,0
 "verb","lasciare (andare)",1,0,0
 "verb","abitare",1,1,0
 "verb","caricare",1,0,0
 "verb","fare (una brutta figura)",1,0,0
-"verb","fare (una idea)",1,1,1
+"verb","fare (una idea)",1,2,2
 "verb","manovrare",1,0,0
 "verb","importare",1,0,0
 "verb","intendere",1,0,0
 "verb","voler (dire)",1,0,0
 "verb","significare",1,0,0
 "verb","sgomberare",1,0,0
-"verb","bofonchiare",1,0,0
+"verb","bofonchiare",1,1,0
 "verb","avere (bisogno di)",1,0,0
-"verb","ottenere",1,0,0
-"verb","avvenire",1,1,0
+"verb","ottenere",1,3,1
+"verb","avvenire",1,2,0
 "verb","tralasciare",1,0,0
 "verb","sbirciare",1,0,0
 "verb","accarezzare",1,0,0
@@ -414,21 +414,21 @@
 "verb","riprendere",1,0,0
 "verb","ritenere",1,0,0
 "verb","tornarci",1,0,0
-"verb","rubare",1,1,0
-"verb","correre (dietro a)",1,0,0
+"verb","rubare",1,3,1
+"verb","correre (dietro a)",1,1,1
 "verb","spaventare",1,0,0
 "verb","scrutare",1,0,0
 "verb","mandare",1,0,0
-"verb","condividere",1,0,0
+"verb","condividere",1,3,0
 "verb","gridare",1,0,0
 "verb","patinare",1,0,0
 "verb","sbattere",1,0,0
-"verb","stare",1,1,0
+"verb","stare",1,2,0
 "verb","fermare",1,0,0
 "verb","riuscire",1,0,0
-"verb","sostenere",1,1,0
-"verb","prendere (la metro)",1,0,0
-"verb","gustare",1,0,0
+"verb","sostenere",1,2,1
+"verb","prendere (la metro)",1,1,0
+"verb","gustare",1,3,2
 "verb","raccontare",1,0,0
 "verb","scagliare",1,0,0
 "verb","rimorchiare",1,0,0
@@ -436,4 +436,4 @@
 "verb","provarsi",1,0,0
 "verb","aggiornare",1,0,0
 "verb","aspettare",1,0,0
-"verb","sprecare",1,0,0
+"verb","sprecare",1,1,1
