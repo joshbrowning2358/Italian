@@ -57,6 +57,9 @@ singleVerbQuiz = function(verbFile){
     }
     
     ## Update statistics
+    personWord  = ifelse(personWord == "lui, lei, Lei", "lui/lei/Lei",
+                         ifelse(personWord == "loro, Loro", "loro",
+                                personWord))
     verbFile[category == "person" & word == personWord,
              successes := (rightPrompt == "y") + successes]
     verbFile[category == "tense"  & word == tenseWord,

@@ -1,27 +1,27 @@
-"englishTense","italianTense"
-"indicative","Presente"
-"indicative","Futuro Semplice"
-"preterite + uncertainty","Presente Congiuntivo"
-"present conditional","Presente Condizionale"
-"preterite","Passato Prossimo"
-"preterite","Passato Remoto"
-"preterite","Imperfetto"
-"preterite + uncertainty","Imperfetto Congiuntivo"
-"imperative","imperative"
-"present continuous","Presente"
-"present continuous","Futuro Semplice"
-"present perfect","Presente"
-"present perfect","Passato Prossimo"
-"present perfect + uncertainty","Passato Congiuntivo"
-"future","Futuro Semplice"
-"future perfect","Future Anteriore"
-"past continuous","Imperfetto"
-"past perfect","Trapassato Remoto"
-"past perfect","Trapassato Prossimo"
-"past perfect + uncertainty","Trapassato Congiuntivo"
-"past conditional","Passato Condizionale"
-"future continuous","Futuro Semplice"
-"present perfect continuous","Presente"
-"present perfect continuous","Trapassato Remoto"
-"past perfect continuous","Trapassato Prossimo"
-"future perfect continuous","Future Anteriore"
+englishTense,italianTense
+indicative,Presente
+indicative,Futuro Semplice
+present + uncertainty,Presente Congiuntivo
+present conditional,Presente Condizionale
+preterite,Passato Prossimo
+preterite,Passato Remoto
+preterite,Imperfetto
+preterite + uncertainty,Imperfetto Congiuntivo
+imperative,imperative
+present continuous,Presente
+present continuous,Futuro Semplice
+present perfect,Presente
+present perfect,Passato Prossimo
+present perfect + uncertainty,Passato Congiuntivo
+future,Futuro Semplice
+future perfect,Future Anteriore
+past continuous,Imperfetto
+past perfect,Trapassato Remoto
+past perfect,Trapassato Prossimo
+past perfect + uncertainty,Trapassato Congiuntivo
+past conditional,Passato Condizionale
+future continuous,Futuro Semplice
+present perfect continuous,Presente
+present perfect continuous,Trapassato Remoto
+past perfect continuous,Trapassato Prossimo
+future perfect continuous,Future Anteriore

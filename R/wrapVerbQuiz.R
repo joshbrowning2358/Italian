@@ -17,6 +17,7 @@ wrapVerbQuiz = function(name){
     verbFile[, successes := as.integer(successes)]
     verbFile[, active := as.integer(active)]
     load("~/GitHub/Italian/finalVerbDatabase.RData")
+    finalDatabase <<- finalDatabase
     
     ## Subset verbFile
     filter = verbFile[, active == 1 & (word %in% finalDatabase$italianVerb |
@@ -61,6 +62,6 @@ wrapVerbQuiz = function(name){
         if(!is(test, "try-error"))
             written = TRUE
         else
-            cat("File not written.  Is it open?")
+            readline("File not written.  Is it open?")
     }
 }
