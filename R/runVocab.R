@@ -1,5 +1,8 @@
 currDir = getwd()
-setwd("~/GitHub/Italian")
+if(Sys.info()[4] == "joshua-Ubuntu-Linux")
+    setwd("~/Documents/Github/Italian")
+if(Sys.info()[4] == "")
+    setwd()
 library(data.table)
 files = dir("R", full.names = TRUE)
 files = files[files != "R/runVocab.R"]

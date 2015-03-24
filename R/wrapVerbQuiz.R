@@ -16,7 +16,7 @@ wrapVerbQuiz = function(name){
     verbFile[, attempts := as.integer(attempts)]
     verbFile[, successes := as.integer(successes)]
     verbFile[, active := as.integer(active)]
-    load("~/GitHub/Italian/finalVerbDatabase.RData")
+    load("finalVerbDatabase.RData")
     finalDatabase <<- finalDatabase
     
     ## Subset verbFile
