@@ -48,8 +48,10 @@ wrapVerbQuiz = function(name){
         continue = FALSE
     }
     if(prompt %in% 2:1000){
-        for(i in 1:prompt)
+        for(i in 1:prompt){
+            cat(i, "/", prompt)
             verbFile = singleVerbQuiz(verbFile = verbFile)
+        }
     }
     
     ## Update statistics

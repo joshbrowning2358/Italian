@@ -34,7 +34,16 @@ interface <- function(){
     if(prompt==5){
       finished=TRUE
       #save(vocabFile, file=paste0(name,".RData"))
-      write.csv(vocabFile, file=paste0(name,".csv"), row.names = FALSE)
+      success = FALSE
+      while(!success){
+        test = try(write.csv(vocabFile, file=paste0(name,".csv"), row.names = FALSE))
+        if(is(test, "try-error")){
+            readline(("File save was unsuccessful.  Please close and press enter to try again."))
+        } else {
+            success = TRUE
+            cat("File saved successfully!\n")
+        }
+      }
     }
     if(prompt==6){
 #       file =paste0(name,"_",round(as.numeric(Sys.time())),".RData")
