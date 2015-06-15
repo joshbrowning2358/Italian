@@ -24,12 +24,17 @@ interface <- function(){
       addWord()
     if(prompt==2)
       beginQuiz(type = "vocabulary")
-    if(prompt==3)
+    if(prompt==3){
+      if(numLanguages != 2)
+        stop("This isn't implemented for numLanguages != 2!")
       beginQuiz(type = "conjugation")
+    }
     if(prompt==4){
-        while(!"verbFile" %in% ls(".GlobalEnv"))
-            name = startVerb() # defines verbFile
-        wrapVerbQuiz(name = name)
+      if(numLanguages != 2)
+        stop("This isn't implemented for numLanguages != 2!")
+      while(!"verbFile" %in% ls(".GlobalEnv"))
+        name = startVerb() # defines verbFile
+      wrapVerbQuiz(name = name)
     }
     if(prompt==5){
       finished=TRUE
@@ -54,9 +59,15 @@ interface <- function(){
     }
     if(prompt==7)
       finished=TRUE
-    if(prompt==8)
+    if(prompt==8){
+      if(numLanguages != 2)
+        stop("This isn't implemented for numLanguages != 2!")
       checkDupes()
-    if(prompt==9)
+    }
+    if(prompt==9){
+      if(numLanguages != 2)
+        stop("This isn't implemented for numLanguages != 2!")
       computeStats()
+    }
   }
 }

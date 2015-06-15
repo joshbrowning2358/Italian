@@ -32,27 +32,28 @@ beginQuiz <- function(type){
       testCnt = 1
       rowNumber = 1
       while(testCnt <= prompt){
-        if(grepl("\\*", vocabFile[rowNumber,"Italian"]) &
-               type == "conjugation"){
-          readline(paste0("(", testCnt, "/", prompt, ") ", "English verb is ",
-                          vocabFile[rowNumber,"English"]))
-          cat("Italian conjugation is:\n")
-          verb = strsplit(vocabFile[rowNumber,"Italian"], "\\*")[[1]]
-          lengths = sapply(verb, nchar)
-          mLength = ceiling((max(lengths)+1)/8)
-          tabs = mLength - floor(lengths/8)
-          for(j in 1:3){
-            cat("\t",verb[j], rep("\t",tabs[j]), verb[j+3], rep("\t",tabs[j]),"\n")
-          }
-          rightPrompt = 0
-          while(!rightPrompt %in% c("y", "n")){
-            rightPrompt = readline("Did you get the word right (y/n)?")
-          }
-          if(rightPrompt=="y")
-            vocabFile[rowNumber, "Success"] = vocabFile[rowNumber, "Success"]+1
-          vocabFile[rowNumber, "Total"] = vocabFile[rowNumber, "Total"]+1
-          testCnt = testCnt + 1
-        } else if(!grepl("\\*", vocabFile[rowNumber,"Italian"]) & type == "vocabulary"){
+#         if(grepl("\\*", vocabFile[rowNumber,"Italian"]) &
+#                type == "conjugation"){
+#           readline(paste0("(", testCnt, "/", prompt, ") ", "English verb is ",
+#                           vocabFile[rowNumber,"English"]))
+#           cat("Italian conjugation is:\n")
+#           verb = strsplit(vocabFile[rowNumber,"Italian"], "\\*")[[1]]
+#           lengths = sapply(verb, nchar)
+#           mLength = ceiling((max(lengths)+1)/8)
+#           tabs = mLength - floor(lengths/8)
+#           for(j in 1:3){
+#             cat("\t",verb[j], rep("\t",tabs[j]), verb[j+3], rep("\t",tabs[j]),"\n")
+#           }
+#           rightPrompt = 0
+#           while(!rightPrompt %in% c("y", "n")){
+#             rightPrompt = readline("Did you get the word right (y/n)?")
+#           }
+#           if(rightPrompt=="y")
+#             vocabFile[rowNumber, "Success"] = vocabFile[rowNumber, "Success"]+1
+#           vocabFile[rowNumber, "Total"] = vocabFile[rowNumber, "Total"]+1
+#           testCnt = testCnt + 1
+#         } else if(!grepl("\\*", vocabFile[rowNumber,"Italian"]) & type == "vocabulary"){
+        if(numLanguages == 2){
           chooseItalian = sample(c(T,F),size=1)
           if(chooseItalian)
             readline(paste0("(", testCnt, "/", prompt, ") ", "Italian word is ",
@@ -64,15 +65,28 @@ beginQuiz <- function(type){
             cat("English word is", vocabFile[rowNumber,"English"],"\n")
           else
             cat("Italian word is",vocabFile[rowNumber,"Italian"],"\n")
-          rightPrompt = 0
-          while(!rightPrompt %in% c("y", "n")){
-            rightPrompt = readline("Did you get the word right (y/n)?")
-          }
-          if(rightPrompt=="y")
-            vocabFile[rowNumber,"Success"] = vocabFile[rowNumber,"Success"]+1
-          vocabFile[rowNumber,"Total"] = vocabFile[rowNumber,"Total"]+1
-          testCnt = testCnt + 1
+        } else if(numLanguages == 3){
+          chooseColumn = sample(1:3, size = 1)
+          readline(paste0("(", testCnt, "/", prompt, ") ",
+                          colnames(vocabFile)[chooseColumn], " word is ",
+                          vocabFile[rowNumber, chooseColumn]))
+          if(chooseColumn != 1)
+            cat("Palabra espanol es", vocabFile[rowNumber, 1], "\n")
+          if(chooseColumn != 2)
+            cat("Parola italiano e ", vocabFile[rowNumber, 2], "\n")
+          if(chooseColumn != 3)
+            cat("English word is", vocabFile[rowNumber, 3], "\n")
+        } else {
+          stop("Unexpected value for numLanguages: ", numLanguages)
         }
+        rightPrompt = 0
+        while(!rightPrompt %in% c("y", "n")){
+          rightPrompt = readline("Did you get the word right (y/n)?")
+        }
+        if(rightPrompt=="y")
+          vocabFile[rowNumber,"Success"] = vocabFile[rowNumber,"Success"]+1
+        vocabFile[rowNumber,"Total"] = vocabFile[rowNumber,"Total"]+1
+        testCnt = testCnt + 1
         rowNumber = rowNumber + 1
         
         #Don't overrun vocabFile

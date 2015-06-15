@@ -12,9 +12,18 @@ addWord <- function(){
       prompt = readline()
     }
     if(prompt==1){
-      Eng = readline("New word in english: ")
-      Ital = readline("New word in italian: ")
-      vocabFile[as.character(nrow(vocabFile)+1),] = c(Eng, Ital, 0, 0)
+      if(numLanguages == 2){
+        Eng = readline("New word in english: ")
+        Ital = readline("New word in italian: ")
+        vocabFile[as.character(nrow(vocabFile)+1),] = c(Eng, Ital, 0, 0)
+      } else if(numLanguages == 3){
+        Span = readline("New word in spanish: ")
+        Ital = readline("New word in italian: ")
+        Eng = readline("New word in english: ")
+        vocabFile[as.character(nrow(vocabFile)+1),] = c(Span, Ital, Eng, 0, 0)
+      } else {
+        stop("Found unexpected value for numLanguages: ", numLanguages)
+      }
     }
     if(prompt==2){
       continue = FALSE
