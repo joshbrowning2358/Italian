@@ -8,6 +8,7 @@
 ##' 
 
 #library(rvest)
+#library(dplyr)
 #source("parseOneTense.R")
 
 getConjugations = function(infinitive){
