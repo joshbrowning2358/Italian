@@ -12,13 +12,19 @@ start <- function(){
         vocabFile = matrix(0, nr=0, nc=4)
         vocabFile = as.data.frame(vocabFile)
         colnames(vocabFile) = c("English", "Italian", "Success", "Total")
+        numLanguages <<- 2
+        lockBinding("numLanguages", env = .GlobalEnv)
         needResponse=F
       }
       if(create=="n")
         needResponse=F
     }
   }
-  if(exists("vocabFile"))
+  if(exists("vocabFile")){
     vocabFile <<- vocabFile
+    numLanguages <<- ncol(vocabFile) - 2
+    lockBinding("numLanguages", env = .GlobalEnv)
+
+  }
   return(name)
 }
