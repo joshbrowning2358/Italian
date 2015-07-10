@@ -7,6 +7,7 @@
 ##' and the conjugation of the verb.
 ##' 
 
+#library(dplyr)
 #library(rvest)
 #source("parseOneTense.R")
 
