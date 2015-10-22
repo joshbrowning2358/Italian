@@ -73,7 +73,7 @@ beginQuiz <- function(type){
           if(chooseColumn != 1)
             cat("Palabra espanol es", vocabFile[rowNumber, 1], "\n")
           if(chooseColumn != 2)
-            cat("Parola italiano e ", vocabFile[rowNumber, 2], "\n")
+            cat("Parola italiano e", vocabFile[rowNumber, 2], "\n")
           if(chooseColumn != 3)
             cat("English word is", vocabFile[rowNumber, 3], "\n")
         } else {

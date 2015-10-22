@@ -60,13 +60,13 @@ interface <- function(){
     if(prompt==7)
       finished=TRUE
     if(prompt==8){
-      if(numLanguages != 2)
-        stop("This isn't implemented for numLanguages != 2!")
-      checkDupes()
+      if(numLanguages != 2){
+        warning("This isn't implemented for numLanguages != 2!")
+      } else {
+        checkDupes()
+      }
     }
     if(prompt==9){
-      if(numLanguages != 2)
-        stop("This isn't implemented for numLanguages != 2!")
       computeStats()
     }
   }
