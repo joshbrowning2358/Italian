@@ -1,134 +1,383 @@
 Espanol,Italiano,English,Success,Total
-asi pues,affinche,so that,0,3
-echar,gettare,to throw,0,2
-muchacho,ragazzo,boy,0,1
-llevar,portare,to carry,1,1
-saber,sapere,to know,1,1
-ahí,là,there,0,1
-enhorabuena,complimenti,congratulations,1,4
-amenaza,minaccia,threat,0,3
-tampoco,né,neither,0,3
+"aún, todavia",ancora,"yet, still",1,8
+encuentro,partita,"match, encounter",2,6
+quedar,restare,to remain,1,5
+apostar,scommettere,to bet,0,4
+así,così,so,1,11
+cumplir ,completare,"to fulfil, carry out ",0,3
+advertir,avvertire,to warn,2,3
+atrás,indietro,behind,0,2
+"atar, adjuntar",allegare,to attach,0,2
+encerrar,rinchiudere,"to enclose, to trap",0,8
+nacer ,nascere,to be born ,1,2
+falta,mancanza,a lack,0,6
+mesa,tavola,table,1,1
+loco,pazzo,crazy,1,1
+espejo,specchio,mirror,0,1
+callado,zitto,silent,0,1
+afortunadamente,fortunatamente,fortunately,0,1
+fianco,costado,"side, flank",0,1
+asombrosas,stupefacente,amazing,0,1
+"echar, lanzar, arrojar",gettare,to throw,2,10
+soltar,rilasciare,to release,0,5
+estremecer,tremare,"to shake, to tremble",0,5
+cualquier,qualsiasi,any,0,5
+traer ,portare,to bring,3,5
+"empezar, comenzar","iniziare, cominciare",to begin,2,8
+espalda,schiena,back,2,8
+someter,sottomettersi,to submit,1,4
+cruzar,attraversare,to cross,4,8
+adquirir,acquisire,to acquire,0,4
+proteger,proteggere,to protect,2,4
+ofrecer ,offrire,to offer ,2,4
+retirar,rimuovere,to remove,0,4
+delante de,davanti,in front of,0,4
+demasiado,troppo,too,1,7
+intentar,tentare,to attempt,2,7
+empujar,spingere,to push,1,3
+cartas,lettere,letters,2,3
+estar al tanto,essere a conoscenza,to be aware,0,3
+agarrar,afferare,to grab,0,3
+decir,dire,to say,2,3
+aterrizar,atterrare,to land,2,3
+después,dopo,after,2,3
+llover,piovere,to rain,1,3
+"poner, meter",mettere,"to put, to place",3,3
+descubrir ,scoprire,to discover ,1,6
+realizar ,realizarre,"to achieve, attain, accomplish ",2,6
+pertenecerse,appartenere,to belong,0,6
+techo,soffitto,ceiling,3,6
+atrever,osare,to dare,3,12
+siquiera,almeno,at least,3,12
+segundo,secondo,second,1,2
+suponer ,supporre,to suppose ,3,8
+aunque,sebbene,although,0,8
+retorcido,ritorto,twisted,0,2
+tercero,terzo,third,2,2
+partir ,partire,to leave,2,2
+ley,legge,law,1,2
+parar,"fermare, smettere",to stop,1,2
+"paracer, aparecer",apparire,"to seem, to appear",2,8
+encima,sopra,above,3,8
+asi pues,affinche,so that,2,8
+"sido, estado",stato,been,0,2
+limitado,ristretto,"limited, restricted",0,2
+seguir,seguire,"to follow, to continue",2,2
+perder,perdere,to lose,2,2
+recoger,raccogliere,to collect,0,2
+nunca,mai,never,3,5
+ojos,occhi,eyes,2,2
+volador,volante,flying,0,2
+crear ,creare,"to create, to make ",1,2
+mucho,molto,many,2,2
+explicar ,spiegare,to explain ,2,2
+entre,"fra, tra",between,3,5
+interés,interesse,interest,0,2
+viejo,vecchio,old,2,2
+intentar ,provare,"to try, attempt ",2,2
+ayudar ,aiutare,to help ,2,2
+derrotar,sconfiggere,defeat,3,10
+tampoco,né,neither,3,10
+repentino,improvviso,sudden,1,7
+hundir,affondare,to sink,0,4
+disfrute,godimento,enjoyment,0,4
+preocuparse,preoccuparsi,to worry,3,4
+cantidad,quantità,quantity,1,4
+susurrar,sussurrare,to whisper,2,4
+miembro,membro,member,1,4
+riesgo,rischio,a risk,1,4
+enfadarse,arrabbiarsi,to get angry with,3,4
+muchacho,ragazzo,boy,3,4
+levantar ,sollevare,"to raise, to lift ",3,4
+pedir,chiedere,"to ask for, to request",4,4
+gotear,sgocciolare,to drip,3,11
+habilidades,abilità,abilities,0,1
+camisa,camicia,shirt,0,1
+gafas,occhiali,glasses,1,1
+temblor,tremore,tremor,4,6
+esconder,nascondere,to hide,0,1
+suyo,suo,his/hers,0,1
+asentir,annuire,to nod,0,1
+collina,collina,hill,1,1
+incómodo,scomodo,uncomfortable,0,0
+cómodo,comodo,comfortable,0,0
+dar cuenta,realizarre,to realize,2,7
+asustar,spaventare,to scare,2,7
+mencionar,menzionare,to mention,0,2
+"conseguir , obtener, sacar",ottenere,"to get, obtain ",2,2
+coche,macchina,car,2,2
+volver,tornare,to return,1,2
+casi,quasi,almost,1,2
+primera vez,prima volta,first time,1,2
+reconocer ,riconoscere,to recognize ,1,2
+peor,peggio,worse,2,2
+gustar ,piacere,"to please, be pleasing ",2,2
+poder,potere,to be able to,2,2
+subir,salire,"to rise, to go up",1,2
+encontrar,trovare,to find,1,2
+semana,settimana,week,1,2
+hermana,sorella,sister,2,2
+tener,avere,to have,2,2
+preguntar,"chiedere, domandare",to ask,1,2
+reír,ridere,to laugh,2,2
+correr ,correre,to run ,2,2
+deslizar,scivolare,to slide,1,4
+"parecido, similar",simile,similar,2,4
+servir ,servire,to serve ,2,4
+regresar,ritornare,to return,1,4
+señalar,segnalare,to signal,1,4
+extraño,strano,strange,3,4
+silla,sedia,seat,2,4
+este,questo,this,2,4
+enfurecidos,arrabbiati,angry,2,4
+"llegar, alcanzare",raggiungere,to reach,1,6
+llenar,riempire,to fill,3,6
+fondo,sfondo,"back, depth, background",0,1
+largo,lungo,long,1,1
+mayor,superiore,"higher, major, older",1,1
+hermoso,bello,beautiful,1,1
+pues,poi,then,1,3
+coger,catturare,to catch,0,1
+alguien,qualcuno,someone,2,3
+amenaza,minaccia,threat,4,11
+casi,quasi,almost,0,3
+verdad,verità,truth,1,1
+patadas,calci,kicks,0,1
+justo,giusto,right (i.e. is that right),1,3
+enseguida,subito,at once,0,1
+terminar,terminare,"to finish, to end",0,1
+mismo,stesso,same,1,1
+dar ,dare,to give,1,1
+cada,ogni,"any, some",1,1
+descargar,caricare,to download,1,1
+cada,ogni,each,2,3
+formar ,formare,"to form, shape, fashion, make ",2,3
 quizá,forse,perhaps,2,3
-alguien,qualcuno,someone,1,2
-sin,senza,without,2,2
-aún,anche,yet,0,2
-atrever,osare,to dare,0,2
-cerrar,chiudere,to close,1,1
-peor,peggio,worse,1,1
-techo,soffitto,ceiling,0,1
-siquiera,almeno,at least,0,1
-asustar,spaventare,to scare,0,1
-horno,forno,oven,1,1
-casi,quasi,almost,0,0
-silla,sedia,seat,0,0
-sueño,sogno,dream,0,0
-intentar,tentare,to attempt,0,0
-suelo,terra,ground,0,0
-espalda,schiena,back,0,0
-periódicos,giornali,newspapers,0,2
-oír,sentire,to hear,2,2
-derrotar,sconfitta,defeat,0,1
-llenar,riempire,to fill,0,1
-alivio,sollievo,relief,0,1
-"aquel, que",che,that,1,1
-encima,sopra,above,0,1
-semana,settimana,week,1,1
-enfurecidos,arrabbiati,angry,0,1
-gotear,sgocciolare,to drip,0,1
-golpear,colpire,to hit,1,2
-dejar,lasciare,to let,0,0
-desaparecer,scomparire,to disappear,0,0
-cruzar,attraversare,to cross,0,0
-sombra,ombra,shadow,0,0
-llegar,raggiungere,to reach,0,0
-sudor,sudore,sweat,0,0
-mejor,meglio,better,1,1
+comida,cibo,food,1,1
+hay,"c'è, ci sono","there is, there are",1,1
+hacer,fare,"to do, to make",1,1
+alrededor,in giro,around,1,1
+sentir,sentire,to feel,1,1
+dejar,lasciare,"to let, to allow",1,1
+opinar,opinare,"to think, to be of the opinion",1,1
+si,se,if,1,1
+más,più,more,1,1
+boquiabierto,-,agape,2,3
+peligro,pericolo,danger,2,3
+entender,capire,to understand,1,1
+adivinar,indovinare,to guess,1,1
+"acarrear, transportar",trasportare,"to carry, to transport",1,1
+por qué,perche,why,1,1
+enhorabuena,complimenti,congratulations,4,8
+dirigir ,dirigere,to direct ,3,6
+a veces,a volta,sometimes,2,4
+algún,alcuni,some,1,4
+golpear,colpire,to hit,2,4
+"rostro, cara",faccia,face,3,4
+llorar,piangere,to cry,2,4
+alli,là,there,2,4
+acercar,avvicinare,to get close,3,4
+hasta,fino a,until,0,2
+leer,leggere,to read,2,2
+escoba,scopa,broom,1,2
+tratar,trattare,"to treat, to handle",1,2
+tomar,prendere,to take,2,2
+resultar ,risultare,to turn out (to be) ,2,2
+abrir ,aprire,to open ,2,2
+"así, tan","cosi, quindi",so,2,2
+menos mal,meno male,Thank God!,2,2
+horno,forno,oven,2,2
+pared,muro,wall,2,2
+pequeño,piccolo,small,2,2
+dejar,lasciare,to let,2,2
+culpa,colpa,guilt,1,2
+siempre,sempre,always,2,2
+querer,volere,"to want, to love",2,2
+usar ,usare,to use ,2,2
+"ser, estar","essere, stare",to be,2,2
+venir,venire,to come,2,2
+pensar,pensare,to think,2,2
+considerar ,considerare,to consider ,2,2
+sucio,sporco,dirty,2,2
+pero,ma,but,2,2
+escribir,scrivere,to write,2,2
+hablar,parlare,to speak,2,2
+habitación,stanza,room,2,2
+conocer,conoscere,"to know (people, places)",2,2
+ruido,rumore,noise,2,2
+cama,letto,bed,2,2
+vivir,abitare,to live,2,2
+introducir,introdurre,to introduce ,3,5
+ya,già,already,2,5
+escondido,nascosto,hidden,0,0
+permitir ,permettere,"to permit, allow ",0,0
+"intesta, adelante",avanti,ahead,0,0
+oler,annusare,to smell,0,0
+"disimular, ocultar",occultare,"cover, hide",0,0
+mantequilla,burro,butter,0,0
+delgado,sottile,thin,0,0
+de golpe,improvvisamente,suddenly,0,0
+sin embargo,tuttavia,however,0,0
+sueño,sogno,dream,3,5
+mañana,mattina,morning,0,0
+fue,era,it was,0,0
+"ira, enfado",rabbia,anger,0,0
+de hecho,infatti,in fact,0,0
+basura,rifiuti,trash,0,0
+pronto,presto,soon,0,0
+"aguantar, soportar",sopportare,to endure,0,0
+avanzar,avanzare,to advance,0,0
+ese,quello,that,2,3
+siguiente,prossimo,next,1,3
+"ocurrir, suceder","avvenire, succedere","to happen, to occur",1,3
+desaparecer,scomparire,to disappear,1,3
+detener,detenere,"to detain, to stop",2,3
+escuchar ,ascoltare,"to listen, hear ",3,3
+"acabado, finito",finito,finished,3,3
+aburrido,noioso,boring,2,3
+derecho,destra,right (i.e. turn right),3,3
+quien,chi,who,2,3
+de nuevo,di nuovo,again,2,3
+sudor,sudore,sweat,2,3
+cerrar,chiudere,to close,3,3
+quando,quando,when,3,3
+fácil,facile,easy,2,3
+"vigilar, ver",guardare,to watch,3,3
+sin,senza,without,3,3
+doloroso,doloroso,painful,2,3
+alivio,sollievo,relief,4,6
+mirada,sguardo,a look,0,1
+primero,primo,first,1,1
+lado,lato,side,1,1
+producir,rendere,to produce,2,4
+chillar,urlare,to shriek,2,4
+suelo,terra,ground,2,4
+hace meses que,mesi fa,months ago,0,1
+espantosamente,spaventosamente,frightfully,1,1
+tocar ,toccare,"to touch, to play (an instrument) ",1,1
+deber,dovere,to ought to/should,1,1
+franqueza,franchezza,frankness,2,4
+convertir ,convertire,"to convert, change ",2,4
+trabajar,lavorare,to work,1,1
+aprender,"imparare, apprendere",to learn,1,1
+añadir,aggiungere,to add (as in conversation),0,1
+sorprender,sorprendere,to surprise,1,1
+alguien,qualcuno,whoever,1,1
+donde,dove,where,1,1
+enseñar,insegnare,to teach,1,1
+hermano,fratello,brother,1,1
+lugar,luogo,a place,1,1
+presentar,presentare,to present,1,1
+olvidar,dimenticare,to forget,1,1
+reloj,orologio,clock,1,1
+necesitar,avere bisogno,to need,4,4
+mejor,meglio,better,3,4
+antes de,prima di,before,1,1
+creer,credere,to believe,1,1
 hecho,fatto,done,1,1
-"rostro, cara",faccia,face,1,1
-así,"cosi, quindi",so,1,1
-aunque,sebbene,although,0,1
-de forma,così,so,0,1
-"acabado, finito",finito,finished,2,2
-alguien,qualcuno,whoever,0,0
-llorar,piangere,to cry,0,1
-llover,piovere,to rain,1,1
-levantar,sollevare,to lift,0,0
-"parecido, similar",simile,similar,0,0
-"vigilar, ver",guardare,to watch,0,0
-ir,andare,to go,0,0
-"ser, estar","essere, stare",to be,0,0
-pequeño,piccolo,small,0,0
-dar cuenta,realizarre,to realize,0,0
-contestar,reispondere,to answer,0,0
-fácil,facile,easy,0,0
-señalar,segnalare,to signal,0,0
-gato,gatto,cat,0,0
-perro,cane,dog,0,0
-pero,ma,but,0,0
-necesitar,avere bisogno,to need,0,0
-tener,avere,to have,0,0
-hacer,fare,"to do, to make",0,0
-poder,potere,to be able to,0,0
-decir,dire,to say,0,0
-dar ,dare,to give,0,0
-querer,volere,"to want, to love",0,0
-pasar,pasare,"to pass, to happen",0,0
-deber,dovere,to ought to/should,0,0
-poner,mettere,"to put, to place",0,0
-paracer,apparire,"to seem, to appear",0,0
-quedar,restare,to remain,0,0
-creer,credere,to believe,0,0
-hablar,parlare,to speak,0,0
-dejar,lasciare,"to let, to allow",0,0
-seguir,seguire,"to follow, to continue",0,0
-encontrar,trovare,to find,0,0
-llamar,chiamare,to call,0,0
-venir,venire,to come,0,0
-pensar,pensare,to think,0,0
-salir,uscire,"to leave, to go out",0,0
-volver,tornare,to return,,
-tomar,prendere,to take,,
-conocer,conoscere,"to know (people, places)",,
-vivir,abitare,to live,,
-sentir,sentire,to feel,,
-tratar,trattare,"to treat, to handle",,
-mirar,guardare,to look at,,
-contar,contare,"to count, to tell",,
-empezar,iniziare,to begin,,
-esperar,sperare,to hope,,
-buscar,cercare,to look for,,
-existir,esistere,to exist,,
-entrar,entrare,to enter,,
-trabajar,lavorare,to work,,
-escribir,scrivere,to write,,
-perder,perdere,to lose,,
-producir,rendere,to produce,,
-"ocurrir, suceder","avvenire, succedere","to happen, to occur",,
-entender,capire,to understand,,
-pedir,chiedere,"to ask for, to request",,
-recibir,ricevere,to receive,,
-recordarse,ricordarsi,to remember,,
-terminar,terminare,"to finish, to end",,
-algún,alcuni,some,,
-cada,ogni,"any, some",,
-franqueza,franchezza,frankness,,
-preguntar,"chiedere, domandare",to ask,,
-ruido,rumore,noise,,
-nunca,mai,never,,
-igual,uguale,equal,,
-lugar,luogo,a place,,
-feo,brutto,ugly,,
-mucho,molto,many,,
-cabeza,testa,head,,
-malo,"male, cattivo",bad,,
-acercar,avvicinare,to get close,,
-siempre,sempre,always,,
-estremecer,tremare,"to shake, to tremble",,
-advertir,avvertire,to warn,,
-a veces,a volta,sometimes,,
-someter,presentare,to submit,,
-por qué,perche,why,,
-quien,chi,who,,
-quando,quando,when,,
-donde,dove,where,,
-leer,leggere,to read,,
+gato,gatto,cat,1,1
+malo,"male, cattivo",bad,1,1
+enviar,mandare,to send,1,1
+buscar,cercare,to look for,1,1
+perro,cane,dog,1,1
+ir,andare,to go,2,2
+morir ,morire,to die ,2,2
+sombra,ombra,shadow,2,2
+menos,meno,less,2,2
+caer ,cadere,to fall ,1,2
+saber,sapere,to know,2,2
+noche,notte,night,2,2
+pasar,pasare,"to pass, to happen",2,2
+ganar ,vincere,to win,1,2
+recordarse,ricordarsi,to remember,2,2
+comportarse,comportarsi,to behave,2,2
+cerradura,serratura,a lock,2,2
+mundo,mondo,world,2,2
+entonces,poi,then,1,2
+contestar,rispondere,to answer,1,2
+comprender ,capire,"to understand, comprehend ",2,2
+"aquel, que",che,that,2,2
+oír,sentire,to hear,2,2
+utilizar ,utilizzare,"to use, utilize ",2,2
+llevar,portare,to carry,2,2
+a través,attraverso,across,2,2
+mirar,guardare,to look at,2,2
+esperar,sperare,to hope,2,2
+existir,esistere,to exist,1,2
+feo,brutto,ugly,2,2
+igual,uguale,equal,2,2
+periódicos,giornali,newspapers,4,6
+entrar,entrare,to enter,3,3
+preguntar ,domandare,"to ask, inquire ",2,3
+aquí,qui,here,2,4
+llaves,chiavi,keys,0,0
+caro,costoso,expensive,0,0
+pasaje,passaggio,passage,0,0
+limpio,pulito,clean,0,0
+sin querer,senza volere,unintentionally,0,0
+abajo,giù,down,0,0
+listo,pronto,ready,1,1
+cabeza,testa,head,1,1
+ventana,finestra,window,1,1
+desde,da,from,1,1
+contar,contare,"to count, to tell",1,1
+papel,carta,paper,1,1
+todo,tutto,all,1,1
+bastar,bastare,to be enough,2,2
+recibir,ricevere,to receive,1,2
+salir,uscire,"to leave, to go out",2,2
+llamar,chiamare,to call,2,2
+estudiar ,studiare,to study ,2,2
+mantener ,mantenere,"to maintain, get ",2,2
+cambiar ,cambiare,to change ,3,3
+pagar ,pagare,"to pay, pay for ",3,3
+mientras,mentre,while,1,1
+aceptar ,accettare,"to accept, approve, to agree to ",1,1
+levantar,sollevare,to lift,1,1
+jugar ,giocare,to play (a game or sport) ,1,1
+lunes,lunedi,Monday,0,0
+martes,martedi,Tuesday,0,0
+miércoles,mercoledi,Wednesday,0,0
+jueves,giovedi,Thursday,0,0
+viernes,venerdi,Friday,0,0
+sábado,sabato,Saturday,0,0
+domingo,domingo,Sunday,0,0
+temprano,presto,soon,0,0
+huéspedes,ospiti,guests,0,0
+viajar,viaggare,to travel,0,0
+polvo,polvere,"dust, powder",0,0
+fría,freddo,cold,0,0
+calient,caldo,hot,0,0
+apenas,apena,just,0,0
+cercano,vicino,close (proximity),0,0
+manchada,macchiato,"spotted, stained",0,0
+fijo,fisso,fixed,0,0
+apresurada,frettoloso,hasty,0,0
+tamborilear,tamburellare,to drum,0,0
+equipo,squadra,team,0,0
+maravilloso,meraviglioso,marvelous,0,0
+"buio, tenebroso",scuro,dark,0,0
+apellido,cognome,surname,0,0
+vergüenza,vergogna,shame,0,0
+avergonzado,vergognoso,ashamed,0,0
+curiosear,curiosare,to snoop,0,0
+fecha,data,date,0,0
+callejón,vicolo,alley,0,0
+destellar,scintillare,"to sparkle, to flash",0,0
+juntos,insieme,together,0,0
+bosque,foresta,forest,0,0
+mar,mare,"sea, ocean",0,0
+tomate,pomodoro,tomatoe,0,0
+manzana,mela,apple,0,0
+naranja,arancia,orange,0,0
+sandia,anguria,watermelon,0,0
+tarta,torta,cake,0,0
+"flojo, perizoso",pigro,lazy,0,0
+gastar,,"worn out, spend",,
+sobresaliente,,outstanding,,
+hueca,,"empty, hollow",0,0
+gruñón,scontroso,grumpy,0,0
+flexiones,,push-ups,0,0
+timbre,timbro,bell,0,0
+"afuera, fuera",fouri,outside,0,0
+fenomenal,fenomenale,phenomenal,0,0
