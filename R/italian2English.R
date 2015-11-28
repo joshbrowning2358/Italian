@@ -1,3 +1,10 @@
+##' Italian to English
+##' 
+##' This function converts an Italian verb to an English verb.
+##' 
+##' @return The english verb
+##' 
+
 italian2English = function(person, tense, verb){
 
     ## Switch / for . so regex works

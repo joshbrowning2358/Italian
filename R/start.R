@@ -1,3 +1,10 @@
+##' Start
+##' 
+##' This function begins the program by getting the user name.
+##' 
+##' @return The user name.
+##' 
+
 start <- function(){
   name = readline("Please input your name: ")
 #   if(paste0(name,".RData") %in% list.files())

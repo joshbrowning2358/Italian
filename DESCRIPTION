@@ -1,0 +1,16 @@
+Package: Italian
+Type: Package
+Title: Package for Italian language quizzes
+Version: 0.0.1
+Date: 2015-11-28
+Authors@R: person("Joshua M.", "Browning", role = c("aut", "cre"), email = "joshua.browning@fao.org"))
+Author: Joshua M. Browning <joshua.browning@fao.org>
+Maintainer: Joshua M. Browning <joshua.browning@fao.org>
+Description: This package provides all the functions for running language quizzes.
+URL: https://github.com/rockclimber112358/Italian
+License: GPL (>= 3)
+Depends:
+    data.table (>= 1.9.2),
+    ggplot2
+LazyData: yes
+ZipData: no

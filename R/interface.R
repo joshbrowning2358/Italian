@@ -1,3 +1,10 @@
+##' Interface
+##' 
+##' This is the main function that runs the program.
+##' 
+##' @return Nothing, but files are modified and the quizzes ran.
+##' 
+
 interface <- function(){
   #Load vocabFile: either record of progress or new file to add words
   while(!"vocabFile" %in% ls(".GlobalEnv")){
